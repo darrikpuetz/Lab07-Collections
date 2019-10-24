@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestCollections", "XUnitTestCollections\XUnitTestCollections.csproj", "{8D87A1E0-ED49-4A02-8E5C-EEF3D83AFF7E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Classes", "Classes", "{90984CFE-4519-457D-B165-CCA3790E8FBF}"
+	ProjectSection(SolutionItems) = preProject
+		Book.cs = Book.cs
+		Class1.cs = Class1.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
