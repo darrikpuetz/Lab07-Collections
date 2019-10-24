@@ -24,6 +24,27 @@ namespace Collections.Classes
             return count;
         }
 
+        public void Remove(T book)
+        {
+            T[] removeCollection = books;
+            int removeCount = count;
+            books = new T[2];
+            count = 0;
+            for (int i = 0; i < removeCount; i++)
+			{
+                if (!temp[i].Equals(book))
+                {
+                    Add(temp[i]);
+                }
+
+			}
+            if (count == removeCount)
+            {
+                throw new Exception("Book isn't there");
+            }
+
+        }
+
 
         public IEnumerator<T> GetEnumerator()
         {

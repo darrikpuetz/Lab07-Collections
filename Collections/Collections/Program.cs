@@ -101,6 +101,7 @@ namespace Collections
 
             NewLibrary.Add(book);
             Console.WriteLine(book);
+            return book;
         }
 
         //public static void ReturnBook()
